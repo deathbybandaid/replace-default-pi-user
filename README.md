@@ -12,7 +12,7 @@ sudo reboot
 
 wget https://raw.githubusercontent.com/deathbybandaid/replace-default-pi-user/master/replacepi.sh
 
-bash /etc/piadvanced/renamedefaultpiuser.sh
+bash replacepi.sh
 
 ###### This will remove the root password we added earlier and lock the account.
 passwd -dl root
